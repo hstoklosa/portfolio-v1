@@ -11,9 +11,18 @@ import icon from 'astro-icon'
 
 import vercel from '@astrojs/vercel/serverless'
 
-// https://astro.build/config
+/** 
+ * REF: https://astro.build/config 
+ */
 export default defineConfig({
-    site: 'https://example.me',
+    site: 'https://hstoklosa.dev',
+    vite: {
+        server: {
+            watch: {
+                usePolling: true,
+            },
+        },
+    },
     integrations: [
         expressiveCode(expressiveCodeOptions),
         tailwind({
@@ -45,4 +54,4 @@ export default defineConfig({
     adapter: vercel({
         webAnalytics: { enabled: true }
     })
-})
+});
