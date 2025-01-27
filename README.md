@@ -12,6 +12,10 @@
 - Automatic [RSS feed](https://docs.astro.build/en/recipes/rss/)
 - Auto-generated [sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)
 
+## Usage
+
+If you are using VSCode, then it is recommended to install the extensions with the IDs `astro-build.astro-vscode` and `unifiedjs.vscode-mdx` in order to get better Astro support, which will improve aspects such as syntax highlighting and formatting.
+
 ## License
 
 H. Stoklosa - hubert.stoklosa23@gmail.com
